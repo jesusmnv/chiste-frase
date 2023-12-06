@@ -1,0 +1,41 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #000;
+}
+
+.container {
+  text-align: center;
+}
+
+.neon-button {
+  font-size: 16px;
+  background-color: #0f0;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+}
+
+.neon-button:hover {
+  background-color: #080;
+}
+
+.content-box {
+  width: 50%;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #333;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 255, 0, 0.8);
+  color: #fff;
+  text-align: left;
+  white-space: pre-wrap;
+}
